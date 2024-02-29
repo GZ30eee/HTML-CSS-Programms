@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        .scale-text {
+            animation: scaleAnimation 2s infinite ease-in-out;
+        }
+        @keyframes scaleAnimation {
+            0%, 100% {transform: scale(1);}
+            50% {transform: scale(1.5);}
+        }
+    </style>
+</head>
+<body>
+    <div class="scale-text">This text will scale!</div>
+    <p>
+        <ul>
+            <li><b>animation: scaleAnimation 2s infinite ease-in-out;</b> - This is a shorthand property for setting all the individual animation properties at once (name, duration, timing function, delay, iteration count, direction, fill mode, and play state).</li>
+            <li><b>@keyframes scaleAnimation;</b> - This is where we define what the animation should do at certain times. In this case, it scales the size of the text from its normal size to 1.5 times its normal size, and then back to its normal size, causing a scaling effect.</li>
+        </ul>
+    </p>
+</body>
+</html>

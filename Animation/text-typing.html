@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        .typing-text {
+            border-right: .2em solid;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 2s steps(40, end), blink-caret .75s step-end infinite;
+        }
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: black; }
+        }
+    </style>
+</head>
+<body>
+    <div class="typing-text">This text will type itself!</div>
+    <p>
+        <ul>
+            <li><b>animation: typing 2s steps(40, end), blink-caret .75s step-end infinite;</b> - This is a shorthand property for setting all the individual animation properties at once (name, duration, timing function, delay, iteration count, direction, fill mode, and play state). Here, we have two animations: one for the typing effect and one for the blinking caret effect.</li>
+            <li><b>@keyframes typing, @keyframes blink-caret;</b> - These are where we define what the animations should do at certain times. The typing animation increases the width of the text box from 0 to 100%, giving the illusion of typing. The blink-caret animation changes the color of the border, giving the illusion of a blinking caret.</li>
+        </ul>
+    </p>
+</body>
+</html>

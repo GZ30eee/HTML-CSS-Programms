@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+       .glow-text {
+            color: white;
+            text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+            animation: glow 1s infinite alternate;
+        }
+        @keyframes glow {
+            from {text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;}
+            to {text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000;}
+        }
+    </style>
+</head>
+<body>
+    <div class="glow-text">This text will glow!</div>
+    <p>
+        <ul>
+            <li><b>animation: glow 1s infinite alternate;</b> - This is a shorthand property for setting all the individual animation properties at once (name, duration, timing function, delay, iteration count, direction, fill mode, and play state).</li>
+            <li><b>@keyframes glow;</b> - This is where we define what the animation should do at certain times. In this case, it changes the glow color of the text from green to red, causing a glowing effect.</li>
+        </ul>
+    </p>
+</body>
+</html>

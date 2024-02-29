@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        .jiggle-text {
+            animation: jiggle 0.3s infinite;
+            transform-origin: center;
+        }
+        @keyframes jiggle {
+            0%, 100% {transform: rotate(0deg);}
+            25% {transform: rotate(-5deg);}
+            75% {transform: rotate(5deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="jiggle-text">This text will jiggle!</div>
+    <p>
+        <ul>
+            <li><b>animation: jiggle 0.3s infinite;</b> - This is a shorthand property for setting all the individual animation properties at once (name, duration, timing function, delay, iteration count, direction, fill mode, and play state).</li>
+            <li><b>@keyframes jiggle;</b> - This is where we define what the animation should do at certain times. In this case, it rotates the text back and forth around its center, causing a jiggling effect.</li>
+        </ul>
+    </p>
+</body>
+</html>

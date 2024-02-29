@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @keyframes colorchange {
+        0% {
+          background-color: red;
+        }
+        100% {
+          background-color: yellow;
+        }
+      }
+
+      @keyframes movediv {
+        0% {
+          transform: translate(0, 0);
+        }
+        25% {
+          transform: translate(200px, 0);
+        }
+        50% {
+          transform: translate(200px, 200px);
+        }
+        75% {
+          transform: translate(0, 200px);
+        }
+        100% {
+          transform: translate(0, 0);
+        }
+      }
+
+      div {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        animation: colorchange 2s infinite, movediv 8s infinite;
+        animation-direction: reverse;
+        animation-timing-function: ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Animation Example</h1>
+    <p>
+      @keyframes colorchange defines an animation that changes the background
+      color of the div from red to yellow. @keyframes movediv defines an
+      animation that moves the div from left to right, right to bottom, bottom
+      to left, and left to top. animation: colorchange 2s infinite, movediv 8s
+      infinite; applies both animations to the div, with a delay of 2 seconds.
+      The infinite keyword makes the animation run an infinite number of times.
+      animation-direction: reverse; makes the animation run in reverse order.
+      animation-timing-function: ease-in-out; changes the speed of the
+      animation: it starts slow, speeds up in the middle, and then slows down at
+      the end.
+    </p>
+
+    <div></div>
+  </body>
+</html>

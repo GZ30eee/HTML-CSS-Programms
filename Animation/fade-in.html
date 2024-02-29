@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        /* CSS */
+        .fade-in-text {
+            -ms-animation: fadeIn ease 3s;
+            -webkit-animation: fadeIn ease 3s;
+            -moz-animation: fadeIn ease 3s;
+            -o-animation: fadeIn ease 3s;
+            animation: fadeIn ease 3s;
+        }
+        @keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+    </style>
+</head>
+<body>
+    <div class="fade-in-text">This text will fade in!</div>
+    <p>
+        <ul>
+            <li><b>animation: fadeIn ease 3s;</b> - This is a shorthand property for setting all the individual animation properties at once (name, duration, timing function, delay, iteration count, direction, fill mode, and play state).</li>
+            <li><b>@keyframes fadeIn;</b> - This is where we define what the animation should do at certain times. In this case, it changes the opacity of the text from 0 to 1, causing a fade-in effect.</li>
+        </ul>
+    </p>
+</body>
+</html>

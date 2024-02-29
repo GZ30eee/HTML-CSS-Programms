@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        .ball {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border-radius: 50%;
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% {transform: translateY(0);}
+            50% {transform: translateY(-100px);}
+        }
+    </style>
+</head>
+<body>
+    <div class="ball"></div>
+    <p>
+        <ul>
+            <li><b>animation: bounce 2s infinite;</b> - This is a shorthand property for setting all the individual animation properties at once (name, duration, timing function, delay, iteration count, direction, fill mode, and play state).</li>
+            <li><b>@keyframes bounce;</b> - This is where we define what the animation should do at certain times. In this case, it moves the ball up and down, causing a bouncing effect.</li>
+        </ul>
+    </p>
+</body>
+</html>

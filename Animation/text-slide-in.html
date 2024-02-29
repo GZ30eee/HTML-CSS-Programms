@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        .slide-in-text {
+            animation: slideIn 2s ease-out;
+        }
+        @keyframes slideIn {
+            0% {transform: translateX(-100%);}
+            100% {transform: translateX(0);}
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-in-text">This text will slide in!</div>
+    <p>
+        <ul>
+            <li><b>animation: slideIn 2s ease-out;</b> - This is a shorthand property for setting all the individual animation properties at once (name, duration, timing function, delay, iteration count, direction, fill mode, and play state).</li>
+            <li><b>@keyframes slideIn;</b> - This is where we define what the animation should do at certain times. In this case, it moves the text from outside the left edge of the screen to its normal position, causing a slide-in effect.</li>
+        </ul>
+    </p>
+</body>
+</html>
