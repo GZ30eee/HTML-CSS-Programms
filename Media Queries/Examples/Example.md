@@ -2,7 +2,7 @@
 
 ## Change the appearance of DIV on different screen sizes.html
 
-![image](https://github.com/GZ30eee/HTML-CSS-Programms/assets/130747789/ca51038f-a5a9-4238-861a-a5537fffe982)
+<img width="502" alt="image" src="https://github.com/GZ30eee/HTML-CSS-Programms/assets/130747789/13de3d09-1ec8-4db9-bf9b-af1f4bf85e3f">
 
 The provided [HTML code](https://github.com/GZ30eee/HTML-CSS-Programms/blob/master/Media%20Queries/Examples/Change%20the%20appearance%20of%20DIV%20on%20different%20screen%20sizes.html) is designed to change the appearance of a `div` element based on the width of the browser window.
 
@@ -57,7 +57,9 @@ The provided [HTML code](https://github.com/GZ30eee/HTML-CSS-Programms/blob/mast
 
 ## Change the font size of an element on different screen sizes.html
 
-The provided HTML code is designed to change the font size of a `div` element based on the width of the browser window.
+<img width="580" alt="image" src="https://github.com/GZ30eee/HTML-CSS-Programms/assets/130747789/ff2bf733-35ec-448d-a08b-622835e00758">
+
+The provided [HTML code](https://github.com/GZ30eee/HTML-CSS-Programms/blob/master/Media%20Queries/Examples/Change%20the%20font%20size%20of%20an%20element%20on%20different%20screen%20sizes.html) is designed to change the font size of a `div` element based on the width of the browser window.
 
 ### Explanation of Each Line
 1. The `div.example` style rule sets the background color and padding of the div element with the class example.
@@ -103,7 +105,9 @@ The provided HTML code is designed to change the font size of a `div` element ba
 
 ## Changing Background Color Based on Screen Width.html
 
-The provided HTML code is designed to change the background color and text color of the body based on the width of the browser window.
+<img width="756" alt="image" src="https://github.com/GZ30eee/HTML-CSS-Programms/assets/130747789/4be7592a-1759-43e6-8cd7-2ecfeb54a3ba">
+
+The provided [HTML code](https://github.com/GZ30eee/HTML-CSS-Programms/blob/master/Media%20Queries/Examples/Changing%20Background%20Color%20Based%20on%20Screen%20Width.html) is designed to change the background color and text color of the body based on the width of the browser window.
 
 ### Explanation of Each Line
 
@@ -147,7 +151,9 @@ The provided HTML code is designed to change the background color and text color
 
 ## Flexible Column Layout Using Flexbox.html
 
-The provided HTML code is designed to create a responsive four column layout using Flexbox.
+<img width="758" alt="image" src="https://github.com/GZ30eee/HTML-CSS-Programms/assets/130747789/ca56f074-a3f6-4fb2-86ad-5dbf151e2f42">
+
+The provided [HTML code](https://github.com/GZ30eee/HTML-CSS-Programms/blob/master/Media%20Queries/Examples/Flexible%20Column%20Layout%20Using%20Flexbox.html) is designed to create a responsive four column layout using Flexbox.
 
 ### Explanation of Each Line
 
@@ -214,7 +220,10 @@ The provided HTML code is designed to create a responsive four column layout usi
 
 ## Flexible Website.html
 
-The provided HTML code is designed to create a responsive website layout using Flexbox.
+
+<img width="717" alt="image" src="https://github.com/GZ30eee/HTML-CSS-Programms/assets/130747789/eb4f75f5-e768-4adf-b16d-b791de6642c7">
+
+The provided [HTML code](https://github.com/GZ30eee/HTML-CSS-Programms/blob/master/Media%20Queries/Examples/Flexible%20Website.html) is designed to create a responsive website layout using Flexbox.
 
 ### Explanation of Each Line
 
@@ -322,6 +331,10 @@ The provided HTML code is designed to create a responsive website layout using F
 
 ## Hide elements on different screen sizes.html 
 
+<img width="546" alt="image" src="https://github.com/GZ30eee/HTML-CSS-Programms/assets/130747789/77decf14-6172-4864-b2e3-ec21014cb365">
+
+The provided [HTML code](https://github.com/GZ30eee/HTML-CSS-Programms/blob/master/Media%20Queries/Examples/Hide%20elements%20on%20different%20screen%20sizes.html) is designed to hide a `div` element based on the width of the browser window.
+
 ### Explanation of Each Line
 
 1. The `div.example` style rule sets the background color and padding of the div element with the class example.
@@ -358,7 +371,9 @@ The provided HTML code is designed to create a responsive website layout using F
 
 ## Orientation- Portrait or Landscape.html
 
-The provided HTML code is designed to change the background color of the body based on the orientation of the viewport.
+<img width="544" alt="image" src="https://github.com/GZ30eee/HTML-CSS-Programms/assets/130747789/412515c7-2d35-405d-a669-ea4a739dd28c">
+
+The provided [HTML code](https://github.com/GZ30eee/HTML-CSS-Programms/blob/master/Media%20Queries/Examples/Orientation-%20Portrait%20or%20Landscape.html) is designed to change the background color of the body based on the orientation of the viewport.
 
 ### Explanation of Each Line
 
@@ -385,7 +400,9 @@ The provided HTML code is designed to change the background color of the body ba
 
 ## Responsive Four Column Layout with Flex.html
 
-The provided HTML code is designed to create a responsive four column layout using Flexbox.
+<img width="546" alt="image" src="https://github.com/GZ30eee/HTML-CSS-Programms/assets/130747789/21293249-4a68-431d-a52c-e7ef35030f0d">
+
+The provided [HTML code](https://github.com/GZ30eee/HTML-CSS-Programms/blob/master/Media%20Queries/Examples/Responsive%20Four%20Column%20Layout%20with%20Flex.html) is designed to create a responsive four column layout using Flexbox.
 
 ### Explanation of Each Line
 
@@ -445,7 +462,9 @@ The provided HTML code is designed to create a responsive four column layout usi
 
 ## Responsive Four Column Layout.html
 
-The provided HTML code is designed to create a responsive four column layout using CSS floats.
+<img width="693" alt="image" src="https://github.com/GZ30eee/HTML-CSS-Programms/assets/130747789/c046a28c-d9af-46b4-b0a7-1c9fbd20e211">
+
+The provided [HTML code](https://github.com/GZ30eee/HTML-CSS-Programms/blob/master/Media%20Queries/Examples/Responsive%20Four%20Column%20Layout.html) is designed to create a responsive four column layout using CSS floats.
 
 ### Explanation of Each Line
 
@@ -507,7 +526,9 @@ The provided HTML code is designed to create a responsive four column layout usi
 
 ## Responsive Image Grid.html
 
-The provided HTML code is designed to create a responsive image grid layout using CSS flexbox.
+<img width="947" alt="image" src="https://github.com/GZ30eee/HTML-CSS-Programms/assets/130747789/b51bb803-39d6-43a3-b114-12b58259ec11">
+
+The provided [HTML code](https://github.com/GZ30eee/HTML-CSS-Programms/blob/master/Media%20Queries/Examples/Responsive%20Image%20Grid.html) is designed to create a responsive image grid layout using CSS flexbox.
 
 ### Explanation of Each Line
 
@@ -600,7 +621,10 @@ The provided HTML code is designed to create a responsive image grid layout usin
 
 ## Responsive Navigation Menu.html
 
-The provided HTML code is designed to create a responsive navigation menu using CSS.
+
+<img width="569" alt="image" src="https://github.com/GZ30eee/HTML-CSS-Programms/assets/130747789/aab7113b-453c-4b6e-9856-ad08071d1274">
+
+The provided [HTML code](https://github.com/GZ30eee/HTML-CSS-Programms/blob/master/Media%20Queries/Examples/Responsive%20Navigation%20Menu.html) is designed to create a responsive navigation menu using CSS.
 
 ### 
 
