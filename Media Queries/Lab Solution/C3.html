@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .top-right {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: red;
+        text-decoration: underline;
+      }
+
+      .top-right a {
+        color: red;
+      }
+
+      .rectangle {
+        width: 100%;
+        height: 25vh;
+        background-color: #cccccc;
+        padding: 20px;
+      }
+
+      .rectangle .nav-item {
+        margin-right: 20px;
+        color: red;
+        text-decoration: underline;
+      }
+
+      .rectangle .side-title {
+        margin-top: 20px;
+      }
+
+      .rectangle .line {
+        width: 100%;
+        height: 1px;
+        background-color: white;
+      }
+
+      .line1 {
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        margin: 10px;
+      }
+
+      .line2 {
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+
+      .split-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .top-part,
+      .bottom-part {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .square-box {
+        width: 370px;
+        height: 350px;
+        background-color: #f0f0f0;
+        margin: 10px;
+      }
+
+      .rectangle-box {
+        width: 23%;
+        height: 100px;
+        background-color: black;
+        margin: 6px;
+      }
+
+      footer {
+        height: 20vh;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      footer p {
+        color: red;
+      }
+
+      @media (max-width: 768px) {
+        .square-box,
+        .rectangle-box {
+          width: calc(100% - 20px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-right">
+      <a href="#">Links>></a>
+      <a href="#">SiteMap>></a>
+      <a href="#">Contact>></a>
+    </div>
+
+    <div class="rectangle">
+      <p>
+        <span class="nav-item">Home</span>
+        <span class="nav-item">About</span>
+        <span class="nav-item">Gallery</span>
+        <span class="nav-item">Contact</span>
+      </p>
+      <div class="line"></div>
+      <h2 class="side-title">Side Title</h2>
+    </div>
+    <div class="rectangle" style="background-color: white">
+      <p>Some text goes here...</p>
+    </div>
+    <div class="line1"></div>
+
+    <div class="split-div">
+      <div class="top-part">
+        <div class="square-box"></div>
+        <div class="square-box"></div>
+        <div class="square-box"></div>
+      </div>
+      <div class="line2"></div>
+
+      <div class="bottom-part">
+        <div class="rectangle-box"></div>
+        <div class="rectangle-box"></div>
+        <div class="rectangle-box"></div>
+        <div class="rectangle-box"></div>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright @ 2024 Ghanshyamsinh Zala</p>
+    </footer>
+  </body>
+</html>

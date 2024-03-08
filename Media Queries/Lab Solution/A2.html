@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .container {
+        width: 80vmin;
+        height: 90vmin;
+        border: 1px solid black;
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .top {
+        height: 25%;
+        background-color: lightgrey;
+        text-align: left;
+        padding: 5px;
+      }
+
+      .middle {
+        flex-grow: 1;
+        display: flex;
+        gap: 10px;
+      }
+
+      .middle .left {
+        flex-basis: 75%;
+        background-color: lightblue;
+        padding: 5px;
+      }
+
+      .middle .right {
+        flex-basis: 25%;
+        background-color: lightgreen;
+        padding: 5px;
+      }
+
+      .middle-bottom {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .bottom {
+        width: 100%;
+        text-align: left;
+        height: 18%;
+        background-color: lightpink;
+        text-align: center;
+        margin-top: 5px;
+      }
+      .line {
+        height: 1px;
+        background-color: black;
+      }
+
+      .text p {
+        text-align: center;
+      }
+
+      .left-bottom {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <h1>Side Title</h1>
+        <p>Fixed-1 Column Layout (basic)</p>
+      </div>
+      <div class="middle-bottom">
+        <div class="middle">
+          <div class="right">
+            <h4>Heading</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="left-bottom">
+            <div class="left">
+              <h3>Heading 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3>Heading 2</h3>
+              <ul>
+                <li>Bullet Point 1</li>
+                <li>Bullet Point 2</li>
+                <li>
+                  Bullet Point 3
+                  <ul>
+                    <li>Sub Bullet Point 1</li>
+                    <li>Sub Bullet Point 2</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="bottom">
+              <p>Blockquote</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="text">
+        <p>
+          <span style="color: red; text-decoration: underline">Line 1</span> |
+          <span style="color: red; text-decoration: underline">Line 2</span> |
+          <span style="color: red; text-decoration: underline">Line 3</span> |
+          <span style="color: red; text-decoration: underline">Line 4</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
