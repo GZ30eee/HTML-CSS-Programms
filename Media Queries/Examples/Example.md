@@ -2,7 +2,9 @@
 
 ## Change the appearance of DIV on different screen sizes.html
 
-The provided HTML code is designed to change the appearance of a `div` element based on the width of the browser window.
+![image](https://github.com/GZ30eee/HTML-CSS-Programms/assets/130747789/ca51038f-a5a9-4238-861a-a5537fffe982)
+
+The provided [HTML code](https://github.com/GZ30eee/HTML-CSS-Programms/blob/master/Media%20Queries/Examples/Change%20the%20appearance%20of%20DIV%20on%20different%20screen%20sizes.html) is designed to change the appearance of a `div` element based on the width of the browser window.
 
 ### Explanation of Each Line
 
