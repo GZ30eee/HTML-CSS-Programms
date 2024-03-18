@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Example</title>
+    <!-- Link to your external CSS file -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<style>
+    /* Example 1: All media types */
+@media all {a
+    /* Your styles for all media types go here */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+}
+
+/* Example 2: Print media type */
+@media print {
+    /* Styles for print preview mode */
+    body {
+        font-size: 12pt;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+    }
+    /* Hide unnecessary elements */
+    .hide-on-print {
+        display: none;
+    }
+}
+
+/* Example 3: Screen media type */
+@media screen {
+    /* Styles for screens (desktop, tablet, smartphone) */
+    .main-content {
+        width: 80%;
+        margin: 0 auto;
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    /* Responsive layout adjustments */
+    @media (max-width: 768px) {
+        .main-content {
+            width: 100%;
+        }
+    }
+}
+
+</style>
+<body>
+    <header class="hide-on-print">
+        <!-- Your header content -->
+        <h1>My Responsive Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Your main content goes here -->
+        <section>
+            <h2>Welcome to Our Site</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Your footer content -->
+        <p>© 2024 My Company</p>
+    </footer>
+</body>
+</html>
