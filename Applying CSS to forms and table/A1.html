@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML Table</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left; 
+            padding: 12px;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #ffffff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>FullName</th>
+            <th>Email</th>
+            <th>Mobile Number</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Yash Patel</td>
+            <td>yash_patel@gmail.com</td>
+            <td>8787989811</td>
+            <td>Rajkot</td>
+        </tr>
+        <tr>
+            <td>Keyur Tanna</td>
+            <td>keyur1441@rediffmail.com</td>
+            <td>8874123210</td>
+            <td>Ahmedabad</td>
+        </tr>
+        <tr>
+            <td>Harsh Panchal</td>
+            <td>harsh_panchal@yahoo.com</td>
+            <td>9855621232</td>
+            <td>Surat</td>
+        </tr>
+        <tr>
+            <td>Jigar Makadiya</td>
+            <td>jmakadiya@gmail.com</td>
+            <td>7874636211</td>
+            <td>Baroda</td>
+        </tr>
+    </table>
+</body>
+</html>

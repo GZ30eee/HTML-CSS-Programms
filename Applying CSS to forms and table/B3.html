@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Student Registration</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 400px;
+            border-radius: 8px;
+            height: 600px;
+            overflow-y: auto;
+        }
+
+        h2 {
+            text-align: center;
+            color: #3498db;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        textarea {
+            resize: vertical;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 15px; 
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Student Registration</h2>
+        <label for="fname">FullName:</label>
+        <input type="text" id="fname" name="fname" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="mobile">Mobile No:</label>
+        <input type="tel" id="mobile" name="mobile" required>
+        
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea>
+        
+        <label for="nationality">Nationality:</label>
+        <input type="text" id="nationality" name="nationality" required>
+        
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        
+        <label for="degree">Highest Degree:</label>
+        <select id="degree" name="degree" required>
+            <option value="Bachelor of Technology" selected>Bachelor of Technology</option>
+            <option value="Bachelor of Engineering">Bachelor of Engineering</option>
+            <option value="Bachelor of Science">Bachelor of Science</option>
+            <option value="Master of Technology">Master of Technology</option>
+            <option value="Master of Engineering">Master of Engineering</option>
+            <option value="Master of Science">Master of Science</option>
+            <option value="Doctor of Philosophy">Doctor of Philosophy</option>        
+        </select>
+        
+        <label for="cpi">CPI:</label>
+        <input type="text" id="cpi" name="cpi" required>
+        
+        <label for="university">University:</label>
+        <input type="text" id="university" name="university" required>
+        
+        <label for="year">Passing Year:</label>
+        <select id="year" name="year" required>
+            <option value="">Select Your Passing Year</option>
+        </select>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
+    </form>
+</body>
+</html>

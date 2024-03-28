@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Employee Registration</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow-y: auto;
+            height: auto;
+        }
+
+        form {
+            text-align: left;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            width: 600px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #3498db;
+        }
+
+        h3 {
+            color: #2ecc71;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #2980b9;
+        }
+
+        table {
+            width: 100%;
+        }
+        hr {
+            border: 1px solid #3498db;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    
+        <form>
+            <h2>Employee Registration</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td colspan="4" style="text-align: center;">
+                            <h3>Personal Information</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="empId">Employee Id:</label></td>
+                        <td><input type="text" id="empId" name="empId" required /></td>
+                        <td><label for="empName">Employee Name:</label></td>
+                        <td>
+                          <input type="text" id="empName" name="empName" required />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" required /></td>
+                        <td><label for="contactNo">Contact No:</label></td>
+                        <td>
+                          <input type="tel" id="contactNo" name="contactNo" required />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><label>Marital Status:</label></td>
+                        <td>
+                            <input
+                                type="radio"
+                                id="single"
+                                name="maritalStatus"
+                                value="single"
+                                required
+                            />
+                            <label for="single">Single</label>
+                        </td>
+                        <td>
+                            <input
+                                type="radio"
+                                id="married"
+                                name="maritalStatus"
+                                value="married"
+                                required
+                            />
+                            <label for="married">Married</label>
+                        </td>
+                    </tr>
+                    
+                      <tr>
+                          <td colspan="4" style="text-align: center;">
+                            <h3>Educational Information</h3>
+                          </td>
+                        </tr>
+                      <tr>
+                      <tr>
+                        <td><label for="edu">Education:</label></td>
+                        <td><input type="text" id="edu" name="edu" required /></td>
+                        <td><label for="exp">Experience:</label></td>
+                        <td><input type="text" id="exp" name="exp" required /></td>
+                      </tr>
+                      <tr>
+                          <td colspan="4" style="text-align: center;">
+                            <h3>Job Information</h3>
+                          </td>
+                        </tr>
+                      <tr>
+                      <tr>
+                        <td><label for="des">Designation:</label></td>
+                        <td><input type="text" id="des" name="des" required /></td>
+                        <td><label for="loc">Location:</label></td>
+                        <td><input type="text" id="loc" name="loc" required /></td>
+                      </tr>
+                      <tr>
+                        <td><label for="sal">Salary:</label></td>
+                        <td><input type="text" id="sal" name="sal" required /></td>
+                      </tr>
+                  </tbody>
+              </table>
+                      <table>
+                      <tr>
+                          <tr>
+                              <hr/>
+                          </tr>
+                </tbody>
+            </table>
+            <table>
+                <tr>
+                    <td><input type="submit" value="Register"></td>
+                    <td><input type="reset" value="Cancel"></td>
+                </tr>
+            </table>
+        </form>
+    
+</body>
+</html>
