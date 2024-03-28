@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tags that Interact with Text</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        h1, h2 {
+            color: #008080;
+        }
+        p, h3, h4, h5, h6, strong, em, blockquote, q, hr, code, pre, dl {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        #myList, #myOrderedList {
+            margin-top: 10px;
+        }
+        code, pre {
+            font-family: monospace;
+            white-space: pre;
+            background-color: #f5f5f5;
+        }
+        mark {
+            background-color: #ffff99;
+        }
+        ins {
+            text-decoration: none;
+            background-color: #ccffcc;
+        }
+        del {
+            text-decoration: line-through;
+            background-color: #ffcccc;
+        }
+        sup, sub {
+            color: #008080;
+        }
+        small {
+            font-size: 0.8em;
+        }
+        i {
+            font-style: italic;
+            color: #800080;
+        }
+        b {
+            font-weight: bold;
+            color: #800000;
+        }
+        .sp{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tags that Interact with Text</h1>
+    <h2>The p tag</h2>
+    <p>This tag defines a paragraph of text.</p>
+    <h2>The span tag</h2>
+    <p>This is an inline tag that can be used to create a section in a paragraph that can be targeted using CSS:</p>
+    <p>A part of the text <span class="sp">and here another part</span></p>
+    <h2>The br tag</h2>
+    <p>This tag represents a line break. It's an inline element, and does not need a closing tag.</p>
+    <p>First Line<br />A new line</p>
+    <h2>The heading tags</h2>
+    <p>HTML provides us 6 heading tags. From most important to least important, we have h1 , h2 , h3 , h4 , h5 , h6 .</p>
+    <h2>The strong tag</h2>
+    <p>This tag is used to mark the text inside it as strong. This is pretty important, it's not a visual hint, but a semantic hint. Depending on the medium used, its interpretation will vary.</p>
+    <strong>Browsers by default make the text in this tag bold.</strong>
+    <h2>The em tag</h2>
+    <p>This tag is used to mark the text inside it as emphasized. Like with strong , it's not a visual hint but a semantic hint.</p>
+    <em>Browsers by default make the text in this italic.</em>
+    <h2>Quotes</h2>
+    <blockquote>The blockquote HTML tag is useful to insert citations in the text.</blockquote>
+    <p>The q HTML tag is used for inline quotes.</p>
+    <h2>Horizontal line</h2>
+    <hr />
+    <h2>Code blocks</h2>
+    <pre><code>The code tag is especially useful to show code, because browsers give it a monospaced font.</code></pre>
+    <h2>Lists</h2>
+    <p>We have 3 types of lists: unordered lists, ordered lists, definition lists</p>
+    <label for="listStyle">
+    ul {</br>
+    &nbsp;&nbsp;&nbsp;list-style-type:</label> <input type="text" id="listStyle" name="listStyle"><br>
+    <label>}</label><br>
+    <ul id="myList">
+        <li>First</li>
+        <li>Second</li>
+    </ul>
+
+    <label for="orderedListStyle">
+    ol {</br>
+    &nbsp;&nbsp;&nbsp;list-style-type:</label><input type="text" id="orderedListStyle" name="orderedListStyle" value="1"><br>
+    <label>}</label><br><br>
+    <ol id="myOrderedList" type="1">
+        <li>First</li>
+        <li>Second</li>
+    </ol>
+    
+<div>&nbsp;</div>
+    <dl>
+        <dt>Flavio</dt>
+        <dd>The name</dd>
+        <dt>Copes</dt>
+        <dd>The surname</dd>
+    </dl>
+    <h2>Other text tags</h2>
+    <p>There is a number of tags with presentational purposes:</p>
+    <p>The mark tag: <mark>Highlighted text</mark></p>
+    <p>The ins tag: <ins>Inserted text</ins></p>
+    <p>The del tag: <del>Deleted text</del></p>
+    <p>The sup tag: E = mc<sup>2</sup></p>
+    <p>The sub tag: H<sub>2</sub>O</p>
+    <p>The small tag: <small>Small text</small></p>
+    <p>The i tag: <i>Italic text</i></p>
+    <p>The b tag: <b>Bold text</b></p>
+    <p>You might wonder, how is b different than strong? And how i is different than em?</p>
+    <p>The difference lies in the semantic meaning. While b and i are a direct hint at the browser to make a piece of text bold or italic, strong and em give the text a special meaning, and it's up to the browser to give the styling. Which happens to be exactly the same as b and i, by default. Although you can change that using CSS.</p>
+    <script>
+        document.getElementById('listStyle').addEventListener('input', function(e) {
+            var style = e.target.value;
+            if (style === 'square' || style === 'circle' || style === 'disc') {
+                document.getElementById('myList').style.listStyleType = style;
+            }
+        });
+        document.getElementById('orderedListStyle').addEventListener('input', function(e) {
+            var style = e.target.value;
+            if (style === '1' || style === 'A' || style === 'a' || style === 'I' || style === 'i') {
+                document.getElementById('myOrderedList').type = style;
+            }
+        });
+    </script>
+</body>
+
+</html>

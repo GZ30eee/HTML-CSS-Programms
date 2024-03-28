@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Frameset Example</title>
+</head>
+<body>
+    <h1>Understanding Framesets in HTML</h1>
+
+    <p>The &lt;frameset&gt; tag was used in HTML 4 to define a frameset, which is a group of frames. Each frame could hold a separate document. The &lt;frameset&gt; tag could specify the number of rows and columns in the frameset, and how much space they would occupy in a frame. However, it's important to note that the &lt;frameset&gt; tag is not supported in HTML5.</p>
+
+    <p>Here's an example of how the &lt;frameset&gt; tag was used:</p>
+
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Frameset Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;frameset cols="30%, 40%, 30%"&gt;
+    &lt;frame src="file1.html"&gt;
+    &lt;frame src="file2.html"&gt;
+    &lt;frame src="file3.html"&gt;
+&lt;/frameset&gt;
+&lt;/html&gt;
+    </pre>
+
+    <p>In this example, the browser window is divided into three vertical frames of widths 30%, 40%, and 30% respectively. Each frame loads a different HTML document (file1.html, file2.html, file3.html). Please replace these with the actual paths to your HTML files.</p>
+
+    <p>Remember, since the &lt;frameset&gt; tag is not supported in HTML5, it's recommended to use the &lt;iframe&gt; tag for embedding documents.</p>
+</body>
+</html>

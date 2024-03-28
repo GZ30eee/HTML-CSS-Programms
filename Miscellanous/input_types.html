@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML Input Types</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #3498db;
+        }
+
+        label, input, select, textarea {
+            display: block;
+            margin: 10px 0;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        input[type="submit"], input[type="reset"], input[type="button"] {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+            background-color: #2980b9;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        th[colspan="4"] {
+            background-color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Input Types</h1>
+
+    <section>
+        <h2>Personal Information</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Your username" required pattern="[a-zA-Z]{8}">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email">
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Your password">
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Your age" min="18" max="110" value="18">
+        
+        <input type="hidden" id="hiddenField" name="hiddenField" value="some-value">
+        
+        <input type="submit" value="Submit Form">
+    </section>
+
+    <section>
+        <h2>File Uploads</h2>
+        <label for="fileUpload">Single file upload:</label>
+        <input type="file" id="fileUpload" name="secret-documents">
+        <label for="multipleFileUpload">Multiple file upload:</label>
+        <input type="file" id="multipleFileUpload" name="secret-documents" multiple>
+        <label for="imageUpload">Image file upload:</label>
+        <input type="file" id="imageUpload" name="secret-documents" accept="image/*">    </section>
+
+    <section>
+        <h2>Radio Buttons</h2>
+        <input type="radio" id="yellow" name="color" value="yellow">
+        <label for="yellow">Yellow</label><br>
+        <input type="radio" id="red" name="color" value="red">
+        <label for="red">Red</label><br>
+        <input type="radio" id="blue" name="color" value="blue">
+        <label for="blue">Blue</label>    </section>
+
+    <section>
+        <h2>Checkboxes</h2>
+        <input type="checkbox" id="yellowCheckbox" name="color" value="yellow" checked>
+        <label for="yellowCheckbox">Yellow</label><br>
+        <input type="checkbox" id="redCheckbox" name="color" value="red">
+        <label for="redCheckbox">Red</label><br>
+        <input type="checkbox" id="blueCheckbox" name="color" value="blue">
+        <label for="blueCheckbox">Blue</label>    </section>
+
+    <section>
+        <h2>Date and Time</h2>
+        <label for="birthday">Date:</label>
+        <input type="date" id="birthday" name="birthday">
+        <label for="timeToPickup">Time:</label>
+        <input type="time" id="timeToPickup" name="time-to-pickup">
+        <label for="releaseMonth">Month and Year:</label>
+        <input type="month" id="releaseMonth" name="choose-release-month">
+        <label for="chooseWeek">Week and Year:</label>
+        <input type="week" id="chooseWeek" name="choose-week">
+        <label for="dateTime">Date and Time:</label>
+        <input type="datetime-local" id="dateTime" name="date-and-time">    </section>
+
+    <section>
+        <h2>Color Picker</h2>
+        <label for="carColor">Car Color:</label>
+        <input type="color" id="carColor" name="car-color" value="#000000">    </section>
+
+    <section>
+        <h2>Range</h2>
+        <label for="age">Age:</label>
+        <input type="range" id="age" name="age" min="0" max="100" value="30" step="10">
+    </section>
+
+    <section>
+        <h2>Telephone</h2>
+        <label for="telephoneNumber">Telephone Number:</label>
+        <input type="tel" id="telephoneNumber" pattern="[0-9]{3}-[0-9]{8}" name="telephone-number">
+        </section>
+
+    <section>
+        <h2>URL</h2>
+        <label for="website">Website:</label>
+    <input type="url" id="website" name="website" pattern="https://.*">
+    </section>
+
+    <section>
+        <h2>Textarea</h2>
+        <label for="article">Article:</label>
+        <textarea id="article" name="article" rows="10" cols="0"></textarea>
+        </section>
+
+    <section>
+        <h2>Select</h2>
+        <label for="color">Color:</label>
+        <select id="color" name="color">
+            <optgroup label="Primary">
+                <option value="red">Red</option>
+                <option value="yellow">Yellow</option>
+                <option value="blue">Blue</option>
+            </optgroup>
+            <optgroup label="Others">
+                <option value="green">Green</option>
+                <option value="pink">Pink</option>
+            </optgroup>
+        </select>
+    </section>
+</body>
+</html>
