@@ -1,0 +1,52 @@
+.main
+{
+    height: 600px;
+    width: 800px;
+    background-color: aqua;
+}
+.box
+{
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 50%;
+
+    margin: 10px;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes anime
+{
+    0%
+    {
+        top: 0px;
+        left: 0px;
+    }
+    25%
+    {
+        top: 500px;
+        left: 0;
+    }
+    50%
+    {
+        top: 500px;
+        left: 700px;
+    }
+    75%
+    {
+        top: 0px;
+        left: 700px;
+    }
+    100%
+    {
+        top: 0px;
+        left: 0px;
+    }
+}
