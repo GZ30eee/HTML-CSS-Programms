@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Employee Registration</title>
+  <style></style></head>
+  <style></style>
+  <body>
+    <center>
+      <form>
+        <h2>Employee Registration</h2>
+
+        <table>
+          <tbody>
+            <tr>
+              <td colspan="4" align="center">
+                <h3>Personal Information</h3>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="empId">Employee Id:</label></td>
+              <td><input type="text" id="empId" name="empId" required /></td>
+              <td><label for="empName">Employee Name:</label></td>
+              <td>
+                <input type="text" id="empName" name="empName" required />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email">Email:</label></td>
+              <td><input type="email" id="email" name="email" required /></td>
+              <td><label for="contactNo">Contact No:</label></td>
+              <td>
+                <input type="tel" id="contactNo" name="contactNo" required />
+              </td>
+            </tr>
+            
+              <td>Marital Status:</td>
+              <td>
+                <input
+                  type="radio"
+                  id="single"
+                  name="maritalStatus"
+                  value="single"
+                  required
+                />
+                <label for="single">Single</label>
+                <input
+                  type="radio"
+                  id="married"
+                  name="maritalStatus"
+                  value="married"
+                  required
+                />
+                <label for="married">Married</label>
+              </td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center">
+                  <h3>Educational Information</h3>
+                </td>
+              </tr>
+            <tr>
+            <tr>
+              <td><label for="edu">Education:</label></td>
+              <td><input type="text" id="edu" name="edu" required /></td>
+              <td><label for="exp">Experience:</label></td>
+              <td><input type="text" id="exp" name="exp" required /></td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center">
+                  <h3>Job Information</h3>
+                </td>
+              </tr>
+            <tr>
+            <tr>
+              <td><label for="des">Designation:</label></td>
+              <td><input type="text" id="des" name="des" required /></td>
+              <td><label for="loc">Location:</label></td>
+              <td><input type="text" id="loc" name="loc" required /></td>
+            </tr>
+            <tr>
+              <td><label for="sal">Salary:</label></td>
+              <td><input type="text" id="sal" name="sal" required /></td>
+            </tr>
+        </tbody>
+    </table>
+            <table>
+            <tr>
+                <tr>
+                    <hr/>
+                </tr>
+
+              <td><input type="submit" value="Register"/></td>
+              <td><input type="reset" value="Cancel"/></td>
+            </tr>
+        </table>
+          
+      </form>
+    </center>
+  </body>
+</html>

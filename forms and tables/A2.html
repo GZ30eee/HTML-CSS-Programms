@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table</title>
+</head>
+<style>
+    table, th, td {
+        border: 1px solid black;
+        text-align: center;
+        word-break: normal;
+        white-space: nowrap;
+    }
+    .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50%;
+        }
+        .abc{
+            background-color: yellow;
+        }
+        .xyz{
+            background-color: tomato;
+        }
+        .cde{
+            background-color: teal;
+        }
+        .cvf{
+            background-color: blueviolet;
+        }
+        
+</style>
+<body>
+    <table>
+        <tr class="abc">
+            <th>Department</th>
+            <th colspan="2">1<sup>st</sup> Year</th>
+            <th colspan="2">2nd Year</th>
+            <th colspan="2">3rd Year</th>
+            <th colspan="2">4th Year</th>
+        </tr>
+        <tr class="xyz">
+            <td></td>
+            <td>First Sem</td>
+            <td>Second Sem</td>
+            <td>Third Sem</td>
+            <td>Fourth Sem</td>
+            <td>Fifth Sem</td>
+            <td>Sixth Sem</td>
+            <td>Seventh Sem</td>
+            <td>Eighth Sem</td>
+        </tr>
+        <tr class="cde">
+                <td rowspan="2">Computer</br>Engineering</td>
+                <td>CPU</td>
+                <td>WS</td>
+                <td>COA</td>
+                <td>DLD</td>
+                <td>DAA</td>
+                <td>SE</td>
+                <td>CC</td>
+                <td>DS</td>
+        </tr>
+        <tr class="cvf">
+                <td>CPU</td>
+                <td>WS</td>
+                <td>COA</td>
+                <td>DLD</td>
+                <td>DAA</td>
+                <td>SE</td>
+                <td>CC</td>
+                <td>DS</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Computer</br>Engineering</td>
+    
+                <td>CPU</td>
+                <td>WS</td>
+                <td>COA</td>
+                <td>DLD</td>
+                <td>DAA</td>
+                <td>SE</td>
+                <td>CC</td>
+                <td>DS</td>
+        </tr>
+        <tr>
+                <td>CPU</td>
+                <td>WS</td>
+                <td>COA</td>
+                <td>DLD</td>
+                <td>DAA</td>
+                <td>SE</td>
+                <td>CC</td>
+                <td>DS</td>
+        </tr>
+    </table>
+</body>
+</html>

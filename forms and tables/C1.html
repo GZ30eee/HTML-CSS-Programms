@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COVID-19 Vaccine Registration Form</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    form {
+        align-items: center;
+        font-size: larger;
+    }
+</style>
+<body>
+    <form>
+        <fieldset>
+            <legend><h1>COVID-19 REGISTRATION FORM</h1></legend>
+        <table>
+            <tr>
+                <td><label for="fname">First Name:</label></td>
+                <td><input type="text" id="fname" name="fname" required></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name:</label></td>
+                <td><input type="text" id="lname" name="lname" required></td>
+            </tr>
+            <tr>
+                <td><label for="aadhar">Aadhar Number:</label></td>
+                <td><input type="text" id="aadhar" name="aadhar" required></td>
+            </tr>
+            <tr>
+                <td><label for="vaccine">Vaccine Name:</label></td>
+                <td>
+                    <select id="vaccine" name="vaccine" required>
+                        <option value="">Please Select Vaccine Name</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="center">Vaccination Center Name:</label></td>
+                <td>
+                    <select id="center" name="center" required>
+                        <option value="">Please Select Vaccination Center Name</option>
+\                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="doseDate">Date of Dose:</label></td>
+                <td><input type="date" id="doseDate" name="doseDate" required></td>
+            </tr>
+            <tr>
+                <td><label for="doseNumber">Dose Number:</label></td>
+                <td><input type="number" id="doseNumber" name="doseNumber" required></td>
+            </tr>
+        </table>
+        <input type="submit" value="CLICK HERE">
+        <input type="reset" value="CANCEL">
+    </form>
+</fieldset>
+
+</body>
+</html>
